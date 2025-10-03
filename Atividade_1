@@ -1,0 +1,37 @@
+import java.util.Scanner
+
+public class Main {
+ public static void main(String args[]){
+  Scanner scnr= new Scanner(System.in);
+  System.out.print("digite nota 1");
+  Double n1 = scnr.nextDouble();
+  System.out.print("digite nota 2");
+  Double n2 = scnr.nextDouble();
+  System.out.print("digite nota 3");
+  Double n3 = scnr.nextDouble();
+  System.out.print("digite nota 4");
+  Double n4 = scnr.nextDouble();
+  System.out.print("digite nota 5");
+  Double n5 = scnr.nextDouble();
+  System.out.print("digite nota 6");
+  Double n6 = scnr.nextDouble();
+  System.out.print("digite nota 7");
+  Double n7 = scnr.nextDouble();
+  System.out.print("digite nota 8");
+  Double n8 = scnr.nextDouble();
+  double b1 = (n1 + n2)/2;
+  double b2= (n3 + n4)/2;
+  double b3= (n5 + n6)/2;
+  double b4= (n7 + n8)/2;
+  double s1= (b1 + b2)/2;
+  double s2= (b3 + b4)/2;
+  double fn= (s1 + s2)/2;
+  System.out.println("1 bimestre"+b1);
+  System.out.println("2 bimestre"+b2);
+  System.out.println("1 semestre"+s1);
+  System.out.println("3 bimestre"+b3);
+  System.out.println("4 bimestre"+b4);
+  System.out.println("2 semestre"+s2);
+  System.out.println("media final"+fn);
+ }
+}
