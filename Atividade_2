@@ -1,0 +1,14 @@
+import java.util.Scanner
+public class Main {
+ public static void main(String args[]){
+  Scanner scnr= new Scanner(System.in);
+  System.out.println("digite a temperatura em celsius");
+  Double c = scnr.nextDouble();
+  double f= (c*9/5)+32;
+   double k= c+273.15;
+   System.out.println("temperatura em celsius"+c); 
+   System.out.println("temperatura em fahrenheit"+f);
+   System.out.println("tperatura em kelvin"+k);
+   
+ }
+}
